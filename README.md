@@ -10,3 +10,9 @@ git config --global user.name "Firstname Lastname"
 git config --global user.email "email@gmail.com"
 
 ## Git Instructions
+
+Before making any changes always pull: git pull
+When done making changes:
+git add
+git commit
+git push
