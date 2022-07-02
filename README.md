@@ -16,3 +16,5 @@ When done making changes:
 git add
 git commit
 git push
+
+Once the project has been cloned, create an instructive README.md
