@@ -26,3 +26,19 @@ You may need to remove the existing origin: git remote remove origin
 
 git branch -M main
 git push -u origin main
+
+## Style Guide
+
+File names should be meaningful and end in .R, .do, or .py, respectively. Avoid using special characters in file names - stick with numbers, letters, -, and \_.
+
+If files should be run in a particular order, prefix them with numbers. If it seems likely you’ll have more than 10 files, left pad with zero:
+
+Variable and function names should use only lowercase letters, numbers, and _. Use underscores (_) (so called snake case) to separate words within a name.
+
+Data files should follow the above conventions.
+
+# Internal Structure
+
+\# Load data ---------------------------
+
+\# Plot data ---------------------------
